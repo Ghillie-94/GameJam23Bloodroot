@@ -34,7 +34,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 10.716666666666667
+    m_Start: 11.166667936931809
     m_ClipIn: 0
     m_Asset: {fileID: 7812986722773719368}
     m_Duration: 6
@@ -346,7 +346,7 @@ MonoBehaviour:
   m_Loop: 0
   m_bufferingTime: 0.1
   m_ClipProperties:
-    volume: 1
+    volume: 0.5
 --- !u!114 &4641587945494442859
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -369,13 +369,13 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 10.133332063068188
-    m_ClipIn: 7.344194444020589
+    m_Start: 10.55
+    m_ClipIn: 6.927527777353923
     m_Asset: {fileID: 3972355699777760849}
-    m_Duration: 6
+    m_Duration: 6.61666793693181
     m_TimeScale: 1
     m_ParentTrack: {fileID: 4641587945494442859}
-    m_EaseInDuration: 0
+    m_EaseInDuration: 0.2
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
     m_BlendOutDuration: -1
@@ -573,11 +573,11 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0.633333333333333
     m_Asset: {fileID: 7424326993537043868}
-    m_Duration: 15.5
+    m_Duration: 16.916666666666668
     m_TimeScale: 1
     m_ParentTrack: {fileID: 6540373536293214239}
     m_EaseInDuration: 0
-    m_EaseOutDuration: 9.5
+    m_EaseOutDuration: 10
     m_BlendInDuration: -1
     m_BlendOutDuration: -1
     m_MixInCurve:
@@ -660,7 +660,7 @@ MonoBehaviour:
   m_Loop: 0
   m_bufferingTime: 0.1
   m_ClipProperties:
-    volume: 1
+    volume: 0.5
 --- !u!114 &7812986722773719368
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -695,7 +695,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 17.516666666666666
+    m_Start: 18
     m_ClipIn: 0
     m_Asset: {fileID: 9121166417877325172}
     m_Duration: 5
