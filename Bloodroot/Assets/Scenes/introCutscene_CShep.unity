@@ -750,7 +750,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BloodRoot
+  m_text: 'BloodRoot '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fadd2917d2699694ba5c46eae199370e, type: 2}
   m_sharedMaterial: {fileID: 5421381516149553111, guid: fadd2917d2699694ba5c46eae199370e, type: 2}
