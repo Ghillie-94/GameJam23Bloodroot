@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This will be the first line of text
+  m_text: I have waited years for this moment
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fadd2917d2699694ba5c46eae199370e, type: 2}
   m_sharedMaterial: {fileID: 5421381516149553111, guid: fadd2917d2699694ba5c46eae199370e, type: 2}
@@ -340,7 +340,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This will be the third line of text
+  m_text: The day I kill the root of all evil
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fadd2917d2699694ba5c46eae199370e, type: 2}
   m_sharedMaterial: {fileID: 5421381516149553111, guid: fadd2917d2699694ba5c46eae199370e, type: 2}
@@ -1042,7 +1042,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This will be the second line of text
+  m_text: The day I finally get revenge on the demon who slaughtered my family
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fadd2917d2699694ba5c46eae199370e, type: 2}
   m_sharedMaterial: {fileID: 5421381516149553111, guid: fadd2917d2699694ba5c46eae199370e, type: 2}
