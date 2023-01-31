@@ -15,11 +15,11 @@ public class Movement : MonoBehaviour
     void FixedUpdate()
     {
         Rigidbody2D ourRigidbody = GetComponent<Rigidbody2D>();
-        ourRigidbody.velocity = new Vector2(Input.GetAxis("horizontal")*movementForce,0);
+        ourRigidbody.velocity = new Vector2(Input.GetAxis("Horizontal")*movementForce,0);
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            ourRigidbody.velocity = new Vector2(Input.GetAxis("horizontal") * movementForce, 2);
+            ourRigidbody.velocity = new Vector2(Input.GetAxis("Horizontal") * movementForce, 2);
         }
     }
 }
