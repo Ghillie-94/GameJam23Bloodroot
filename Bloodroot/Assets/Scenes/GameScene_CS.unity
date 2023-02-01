@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 34653169}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.048283, y: -0.34, z: 10.266117}
+  m_LocalPosition: {x: 2.048283, y: 0.52, z: 10.266117}
   m_LocalScale: {x: 1, y: 1.1681249, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -264,7 +264,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &144752862
 Transform:
   m_ObjectHideFlags: 0
@@ -493,7 +493,7 @@ SpriteRenderer:
   m_SortingLayerID: 1733238693
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b16fda486e947474288d51496b7f4d98, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ea6a61662be2494195710a99640b5ff, type: 3}
   m_Color: {r: 0.1509434, g: 0.13599145, b: 0.13599145, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -534,7 +534,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &204899808
 Transform:
   m_ObjectHideFlags: 0
@@ -779,7 +779,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &337446239
 Transform:
   m_ObjectHideFlags: 0
@@ -1149,7 +1149,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &528697292
 Transform:
   m_ObjectHideFlags: 0
@@ -1431,7 +1431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 563455018}
-  parallaxEffect: 0.3
+  parallaxEffect: 0.8
 --- !u!1 &656617881
 GameObject:
   m_ObjectHideFlags: 0
@@ -1448,7 +1448,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &656617882
 Transform:
   m_ObjectHideFlags: 0
@@ -1528,7 +1528,7 @@ GameObject:
   - component: {fileID: 689521349}
   - component: {fileID: 689521350}
   m_Layer: 0
-  m_Name: 05_Forest
+  m_Name: BC_Layer1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1542,7 +1542,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 689521347}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.048283, y: 0.29106477, z: -0.26611724}
+  m_LocalPosition: {x: 0, y: 1.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1592,7 +1592,7 @@ SpriteRenderer:
   m_SortingLayerID: 1733238693
   m_SortingLayer: -1
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 3dda082662719514b8fa93911e760e0f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 63d23f8f57a58f14c804b72de98ba323, type: 3}
   m_Color: {r: 0.9433962, g: 0.37824848, b: 0.37824848, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1616,7 +1616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 563455018}
-  parallaxEffect: 0.3
+  parallaxEffect: 0.9
 --- !u!1 &695291503
 GameObject:
   m_ObjectHideFlags: 0
@@ -1634,7 +1634,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &695291504
 Transform:
   m_ObjectHideFlags: 0
@@ -6978,7 +6978,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1070689167
 Transform:
   m_ObjectHideFlags: 0
@@ -7325,7 +7325,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1169284676
 Transform:
   m_ObjectHideFlags: 0
@@ -7940,7 +7940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 563455018}
-  parallaxEffect: 0.2
+  parallaxEffect: 0.8
 --- !u!1 &1448334440
 GameObject:
   m_ObjectHideFlags: 0
@@ -8410,7 +8410,7 @@ GameObject:
   - component: {fileID: 1634103615}
   - component: {fileID: 1634103616}
   m_Layer: 0
-  m_Name: 07_Forest
+  m_Name: BC_Layer2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8424,7 +8424,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634103613}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.048283, y: 0.29106477, z: -0.26611724}
+  m_LocalPosition: {x: 0, y: 2.8700001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8474,7 +8474,7 @@ SpriteRenderer:
   m_SortingLayerID: 1733238693
   m_SortingLayer: -1
   m_SortingOrder: 7
-  m_Sprite: {fileID: 21300000, guid: 465ef5098094fe7469616fca56973b60, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cd1810f5c27ec4c419a3a600ad5e3776, type: 3}
   m_Color: {r: 0.9056604, g: 0.44001427, b: 0.44001427, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8498,7 +8498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 563455018}
-  parallaxEffect: 0.5
+  parallaxEffect: 0.9
 --- !u!1 &1657609312
 GameObject:
   m_ObjectHideFlags: 0
@@ -8684,7 +8684,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1748293002
 Transform:
   m_ObjectHideFlags: 0
@@ -8895,8 +8895,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1803075164}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.325917, y: -6.69, z: 0}
-  m_LocalScale: {x: 174.8136, y: 61.56734, z: 1}
+  m_LocalPosition: {x: -0.2, y: -5.92, z: 0}
+  m_LocalScale: {x: 174.8136, y: 37.55, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -8996,7 +8996,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1875820162
 Transform:
   m_ObjectHideFlags: 0
@@ -9226,9 +9226,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7dc36c0092874d47877fa04c2723837, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 9
   stoppingDistance: 0
   retreatDistance: 0
+  timeBtwnShots: 0
+  startTimeBtwnShots: 0
+  projectile: {fileID: 0}
   Player: {fileID: 0}
 --- !u!1 &2075733966
 GameObject:
@@ -9315,7 +9318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2076981171
 Transform:
   m_ObjectHideFlags: 0
