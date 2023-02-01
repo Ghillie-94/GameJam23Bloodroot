@@ -12,19 +12,13 @@ public class Projectile : MonoBehaviour
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player").transform;
-
-        target = new Vector2(Player.position.x, Player.position.y);
     }
 
+   
     void FixedUpdate()
     {
+        target = new Vector2(Player.position.x, Player.position.y);
         transform.position = Vector2.MoveTowards(transform.position, target, pSpeed * Time.deltaTime);
-
-        if(transform.position.x == target.x && transform.position.y == target.y)
-        {
-
-            DestroyProjectile();
-        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
