@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Hazard : MonoBehaviour
+public class Hazard4Player : MonoBehaviour
 {
 
     //this will be the amount of damage this hazard does

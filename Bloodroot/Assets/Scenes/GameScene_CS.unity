@@ -7040,6 +7040,7 @@ GameObject:
   - component: {fileID: 1385211565}
   - component: {fileID: 1385211564}
   - component: {fileID: 1385211569}
+  - component: {fileID: 1385211570}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -7183,13 +7184,29 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1385211563}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c59caf79dc7860f41b4cc15a11bf68f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 100
+  healthBar: {fileID: 1107897693}
+--- !u!114 &1385211570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385211563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1333dee1ecae194693a846b28d25cab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 100
+  gameOverScene: 
+  projectilePrefab: {fileID: 0}
   healthBar: {fileID: 1107897693}
 --- !u!1 &1425079218
 GameObject:

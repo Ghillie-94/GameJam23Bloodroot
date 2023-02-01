@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8187081939052268305}
   - component: {fileID: 3834221022388630895}
   - component: {fileID: -2241089642528957145}
+  - component: {fileID: 4660560086870488522}
   m_Layer: 8
   m_Name: EnemyProjectile
   m_TagString: Untagged
@@ -124,6 +125,7 @@ MonoBehaviour:
   startingHealth: 100
   gameOverScene: 
   projectilePrefab: {fileID: 0}
+  healthBar: {fileID: 0}
 --- !u!114 &3834221022388630895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,3 +166,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &4660560086870488522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186930877081757659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93dbba4bb6466cc4985b885f9578e02e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hazardDamage: 20

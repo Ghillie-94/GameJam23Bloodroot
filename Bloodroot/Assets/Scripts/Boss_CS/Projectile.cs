@@ -27,7 +27,7 @@ public class Projectile : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             DestroyProjectile();
-            player_CS.currentHealth = - 30;
+          
         }
     }
 
