@@ -8,18 +8,23 @@ public class BossScript : MonoBehaviour
     public float stoppingDistance;
     public float retreatDistance;
 
+    public float timeBtwnShots;
+    public float startTimeBtwnShots;
 
-
+    public GameObject projectile;
+   
     public Transform Player;
 
     // Start is called before the first frame update
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        timeBtwnShots = startTimeBtwnShots;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (Vector2.Distance(transform.position, Player.position) > stoppingDistance)
         {
@@ -33,5 +38,15 @@ public class BossScript : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(transform.position, Player.position, -speed * Time.deltaTime);
         }
+
+        if (timeBtwnShots <= 0)
+        {
+            Instantiate(projectile, transform.position, Quaternion.identity);
+            timeBtwnShots = startTimeBtwnShots;
+        }else
+        {
+            timeBtwnShots -= Time.deltaTime;
+        }
+
     }
 }
