@@ -5,6 +5,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     public float pSpeed;
+    public Player_CS player_CS;
 
     private Transform Player;
     private Vector2 target;
@@ -26,6 +27,7 @@ public class Projectile : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             DestroyProjectile();
+            player_CS.currentHealth = - 30;
         }
     }
 
