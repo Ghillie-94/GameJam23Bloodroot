@@ -11,6 +11,7 @@ public class PlayerHealth : MonoBehaviour
     public int startingHealth;
     public string gameOverScene;
     public GameObject projectilePrefab;
+    public HealthBar healthBar;
 
     //this will be the player's current health
     //private variable: not shown in unity or accessible from other scripts
