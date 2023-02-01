@@ -14,7 +14,7 @@ TagManager:
   - Water
   - UI
   - Floor
-  - 
+  - boss
   - 
   - 
   - 
@@ -51,4 +51,7 @@ TagManager:
     locked: 0
   - name: ForeGround
     uniqueID: 275425675
+    locked: 0
+  - name: UI
+    uniqueID: 2530476329
     locked: 0
