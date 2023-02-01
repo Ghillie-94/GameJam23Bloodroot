@@ -51,7 +51,7 @@ public class Movement : MonoBehaviour
         {
             hasMovedRight = true;
         }
-        else
+        else if (ourRigidbody.velocity.x < 0)
         {
             hasMovedRight = false;
         }
