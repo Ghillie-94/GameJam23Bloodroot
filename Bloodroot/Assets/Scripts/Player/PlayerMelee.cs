@@ -6,9 +6,11 @@ public class PlayerMelee : MonoBehaviour
 {
     // Unity editior variable
     public GameObject projectilePrefab;
+    public int projectileVelForce;
     public Vector2 projectileVelocity;
+    public Movement movement;
 
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -30,11 +32,21 @@ public class PlayerMelee : MonoBehaviour
         clonedProjectile.transform.position = transform.position; //optional: add an offset (use a public variable)
 
         //fire in a direction
-        //declare a variable to hold the cloned obeject's rigidbody
+        //declare a variable to hold the cloned object's rigidbody
         Rigidbody2D projectileRigidbody;
         //get the rigidbody from our cloned projectile and store it
         projectileRigidbody = clonedProjectile.GetComponent<Rigidbody2D>();
-        // Set the velocity on the rigidbody to the editor setting
-        projectileRigidbody.velocity = projectileVelocity;
+
+        if (movement.GetMovedRight())
+        {
+            // Set the velocity on the rigidbody to the editor setting
+            projectileRigidbody.velocity = projectileVelocity;
+        }
+        else
+        {
+            projectileRigidbody.velocity = -(projectileVelocity);
+        }
+        
     }
+
 }
