@@ -10,7 +10,7 @@ public class PlayerHealth : MonoBehaviour
     //public variable = shown in Unity editor and accessible from other scripts
     public int startingHealth;
     public string gameOverScene;
-    public GameObject projectilePrefab;
+    
     public HealthBar healthBar;
 
     //this will be the player's current health
@@ -64,16 +64,6 @@ public class PlayerHealth : MonoBehaviour
     {
         //This will destroy the game object that this script is attatched to.
         Destroy(gameObject);
-
-        // Explosion animation: spawn a prefab of explosion
-        //clone the projectile
-        //declare a variable to hold the cloned object
-        GameObject clonedProjectile;
-        // Use Instantiate to clone the projectile and keep the result in our variable
-        clonedProjectile = Instantiate(projectilePrefab);
-
-        //position the projectile on the player... tranform is the location of the script (the player object)
-        clonedProjectile.transform.position = transform.position; //optional: add an offset (use a public variable)
 
         //Load the gameover scene 
         sceneTimer -= Time.deltaTime;
