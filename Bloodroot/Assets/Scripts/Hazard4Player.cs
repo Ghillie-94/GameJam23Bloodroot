@@ -15,7 +15,7 @@ public class Hazard4Player : MonoBehaviour
     void OnTriggerEnter2D(Collider2D objectWeCollidedWith)
     {
         
-        // get the player health script attatched to that object(if there is one)
+        // get the player health script attached to that object(if there is one)
         PlayerHealth player = objectWeCollidedWith.GetComponent<PlayerHealth>();
 
         // check if we actually found a player health script on the object we collided with
