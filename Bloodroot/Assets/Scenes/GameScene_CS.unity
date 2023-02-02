@@ -9494,6 +9494,10 @@ PrefabInstance:
       value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 7867420760825574563, guid: a6b40ac6e66e3b54697bff08ce3d2538, type: 3}
+      propertyPath: endScene
+      value: OutroCutScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 7867420760825574563, guid: a6b40ac6e66e3b54697bff08ce3d2538, type: 3}
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1649888248}
