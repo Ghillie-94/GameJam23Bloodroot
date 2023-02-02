@@ -29,8 +29,13 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = startingHealth;
     }
 
-   
-    
+    private void Start()
+    {
+        healthBar.SetMaxHealth(currentHealth);
+    }
+
+
+
     //this function is not built into unity
     // it will only called manually by own code
     // it must be marked "public" so our other scripts can access It
@@ -41,11 +46,15 @@ public class PlayerHealth : MonoBehaviour
         //result back in the current health variable
         currentHealth = currentHealth + changeAmount;
 
+
         //we don't want our current health to go below zero
         //and we dont want it to go above our starting health 
         // so we use the special "Clamp" function to keep it
         //between 0 and our starting health 
         currentHealth = Mathf.Clamp(currentHealth, 0, startingHealth);
+
+        //set healthbar slider value to current health value
+        healthBar.SetHealth(currentHealth);
 
         //If our health has dropped to 0, that means our player should die.
         if (currentHealth == 0)
