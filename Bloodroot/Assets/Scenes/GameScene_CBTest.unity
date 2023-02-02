@@ -7187,6 +7187,7 @@ GameObject:
   - component: {fileID: 1385211569}
   - component: {fileID: 1385211570}
   - component: {fileID: 1385211571}
+  - component: {fileID: 1385211572}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -7366,6 +7367,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1385896011600837970, guid: 38acf9d055dd47741b366cfbbf5f6f9e, type: 3}
+  projectileVelocity: {x: 12, y: 0}
+  movement: {fileID: 1385211566}
+--- !u!114 &1385211572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385211563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 701bf8d6ff6c15948aa7e65fb7939a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 1149768181450978307, guid: cd0323791c9b3bd40844591edf4b01e6, type: 3}
   projectileVelocity: {x: 12, y: 0}
   movement: {fileID: 1385211566}
 --- !u!1 &1425079218
@@ -8836,7 +8852,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1977031773
 MonoBehaviour:
   m_ObjectHideFlags: 0

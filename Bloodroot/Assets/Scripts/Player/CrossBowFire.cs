@@ -15,11 +15,11 @@ public class CrossBowFire : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire2"))
         {
-            FireProjectile();
+            FireCrossBowProjectile();
         }
     }
 
-    public void FireProjectile()
+    public void FireCrossBowProjectile()
     {
         //clone the projectile
         //declare a variable to hold the cloned object
