@@ -6,7 +6,6 @@ public class PlayerMelee : MonoBehaviour
 {
     // Unity editior variable
     public GameObject projectilePrefab;
-    public int projectileVelForce;
     public Vector2 projectileVelocity;
     public Movement movement;
 
