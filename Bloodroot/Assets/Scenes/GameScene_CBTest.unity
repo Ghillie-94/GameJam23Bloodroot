@@ -1211,7 +1211,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 9.65
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -7058,7 +7058,7 @@ GameObject:
   - component: {fileID: 1246039559}
   - component: {fileID: 1246039558}
   - component: {fileID: 1246039557}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7187,7 +7187,7 @@ GameObject:
   - component: {fileID: 1385211569}
   - component: {fileID: 1385211570}
   - component: {fileID: 1385211571}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -7936,7 +7936,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 13.219958, y: 22}
+  m_AnchoredPosition: {x: 13.219958, y: 77}
   m_SizeDelta: {x: 902.05, y: 30}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1586001903
@@ -8832,7 +8832,7 @@ GameObject:
   - component: {fileID: 1977031778}
   m_Layer: 7
   m_Name: Boss
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
