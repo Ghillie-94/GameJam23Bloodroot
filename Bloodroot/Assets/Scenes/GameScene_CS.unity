@@ -7763,7 +7763,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 100
-  gameOverScene: 
+  gameOverScene: GameOver
   healthBar: {fileID: 1107897693}
 --- !u!1 &1400979740
 GameObject:
@@ -9285,6 +9285,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7867420760825574556, guid: a6b40ac6e66e3b54697bff08ce3d2538, type: 3}
+      propertyPath: timeBtwnShots
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7867420760825574556, guid: a6b40ac6e66e3b54697bff08ce3d2538, type: 3}
+      propertyPath: startTimeBtwnShots
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7867420760825574559, guid: a6b40ac6e66e3b54697bff08ce3d2538, type: 3}
       propertyPath: m_RootOrder
       value: 12
