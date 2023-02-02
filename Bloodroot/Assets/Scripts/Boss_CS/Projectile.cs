@@ -13,6 +13,7 @@ public class Projectile : MonoBehaviour
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player").transform;
+        
     }
 
    
@@ -20,6 +21,7 @@ public class Projectile : MonoBehaviour
     {
         target = new Vector2(Player.position.x, Player.position.y);
         transform.position = Vector2.MoveTowards(transform.position, target, pSpeed * Time.deltaTime);
+       
     }
 
     void OnTriggerEnter2D(Collider2D other)
