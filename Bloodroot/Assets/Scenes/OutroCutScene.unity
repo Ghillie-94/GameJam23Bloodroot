@@ -1729,7 +1729,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '2D CharacterDesigner & ConceptArtist
+  m_text: '2D CharacterDesigner & Concept Artist
 
 '
   m_isRightToLeft: 0
@@ -1826,7 +1826,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1200, y: 70}
+  m_SizeDelta: {x: 1250, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1576396043
 GameObject:
