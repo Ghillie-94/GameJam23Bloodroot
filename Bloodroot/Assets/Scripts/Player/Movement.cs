@@ -10,6 +10,7 @@ public class Movement : MonoBehaviour
     int jumpCounter = 0;
     bool grounded;
     bool hasMovedRight;
+    SpriteRenderer spriteRenderer;
 
     bool jumpRequested = false;
     
@@ -17,6 +18,7 @@ public class Movement : MonoBehaviour
     void Start()
     {
         grounded = true;
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     public void SetGrounded(bool newGrounded)
@@ -47,13 +49,24 @@ public class Movement : MonoBehaviour
         Rigidbody2D ourRigidbody = GetComponent<Rigidbody2D>();
         ourRigidbody.velocity = new Vector2(Input.GetAxis("Horizontal")*movementForce,ourRigidbody.velocity.y);
         
+
+        float currentSpeedH = ourRigidbody.velocity.x;
+        // get animator component that will be used for setting animation
+        Animator ourAnimator = GetComponent<Animator>();
+
+        // tell animator what the speed is
+        ourAnimator.SetFloat("speedH", currentSpeedH);
+
         if (ourRigidbody.velocity.x > 0)
         {
             hasMovedRight = true;
+            spriteRenderer.flipX = false;
         }
         else if (ourRigidbody.velocity.x < 0)
         {
             hasMovedRight = false;
+            spriteRenderer.flipX = true;
+
         }
         
         
