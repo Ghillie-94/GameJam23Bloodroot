@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 2861789581369349363}
   - component: {fileID: 2413655787880621229}
   - component: {fileID: -7300382709123764671}
-  - component: {fileID: 3834221022388630895}
   - component: {fileID: -2241089642528957145}
+  - component: {fileID: 3834221022388630895}
+  - component: {fileID: 1217370332151043427}
   - component: {fileID: 4660560086870488522}
+  - component: {fileID: -2929838164063837875}
   m_Layer: 8
   m_Name: EnemyProjectile
   m_TagString: Untagged
@@ -100,7 +102,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.19
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -109,20 +111,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &3834221022388630895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5186930877081757659}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1caba52c89256b43846077daf4674f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pSpeed: 7
-  player_CS: {fileID: 0}
 --- !u!61 &-2241089642528957145
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -149,6 +137,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &3834221022388630895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186930877081757659}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1caba52c89256b43846077daf4674f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pSpeed: 7
+  player_CS: {fileID: 0}
+--- !u!114 &1217370332151043427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186930877081757659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7019cfc731e5e3e4fa865c06d3f1daab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pSpeed: 2
+  unlockSpeed: 1.5
+  player_CS: {fileID: 0}
+  distanceForDecision: 7
 --- !u!114 &4660560086870488522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,3 +180,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hazardDamage: 25
+--- !u!114 &-2929838164063837875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186930877081757659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db2ff5bd4b1629b45b27afd7879ee5f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goalTime: 3.5

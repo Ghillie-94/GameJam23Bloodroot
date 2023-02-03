@@ -9,10 +9,14 @@ public class BossScript : MonoBehaviour
 
     public float timeBtwnShots;
     public float startTimeBtwnShots;
+    
+   
+    public Player_CS player_CS;
 
     public GameObject projectile;
    
     public Transform Player;
+    private Vector2 target;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +36,16 @@ public class BossScript : MonoBehaviour
             clonedProjectile = Instantiate(projectile);
             //Instantiate(projectile, transform.position, Quaternion.identity);
             clonedProjectile.transform.position = transform.position;
+            //declare a variable to hold the cloned object's rigidbody
+            Rigidbody2D projectileRigidbody;
+            //get the rigidbody from our cloned projectile and store it
+            projectileRigidbody = clonedProjectile.GetComponent<Rigidbody2D>();
+
+           
+
+     
             timeBtwnShots = startTimeBtwnShots;
+
         }else
         {
             timeBtwnShots -= Time.deltaTime;
