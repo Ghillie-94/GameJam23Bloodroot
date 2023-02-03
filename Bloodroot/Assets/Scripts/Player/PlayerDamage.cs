@@ -15,7 +15,7 @@ public class PlayerDamage : MonoBehaviour
         
 
         //Check if the object we collided with has the tag we are looking for (Enemy)
-        if (otherCollider.CompareTag("Enemy"))
+        if (otherCollider.CompareTag("Boss"))
         {
             //perform our action
             enemyBoss.TakeDamage(playerDmg);

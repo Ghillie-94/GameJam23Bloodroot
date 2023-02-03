@@ -124,7 +124,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.4, y: 0}
+  m_Offset: {x: 1, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -135,7 +135,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.34, y: 0.55}
+  m_Size: {x: 3, y: 0.55}
   m_EdgeRadius: 0
 --- !u!114 &3834221022388630895
 MonoBehaviour:
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1caba52c89256b43846077daf4674f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pSpeed: 7
+  pSpeed: 5
   player_CS: {fileID: 0}
 --- !u!114 &1217370332151043427
 MonoBehaviour:
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pSpeed: 2
-  unlockSpeed: 1.5
+  unlockSpeed: 0.8
   player_CS: {fileID: 0}
   distanceForUnlock: 0
 --- !u!114 &4660560086870488522
@@ -179,7 +179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93dbba4bb6466cc4985b885f9578e02e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hazardDamage: 25
+  hazardDamage: 15
 --- !u!114 &-2929838164063837875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,4 +192,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db2ff5bd4b1629b45b27afd7879ee5f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goalTime: 7
+  goalTime: 6
