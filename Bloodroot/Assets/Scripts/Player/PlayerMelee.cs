@@ -9,14 +9,22 @@ public class PlayerMelee : MonoBehaviour
     public Vector2 projectileVelocity;
     public Movement movement;
 
-    
+    private void Start()
+    {
+        
+    }
+
     // Update is called once per frame
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
             FireProjectile();
+            // get animator component that will be used for setting animation
+            Animator ourAnimator = GetComponent<Animator>();
+            ourAnimator.SetTrigger("Attack");
         }
+        
     }
 
     public void FireProjectile()
