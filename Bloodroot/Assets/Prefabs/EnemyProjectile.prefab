@@ -32,8 +32,8 @@ Transform:
   m_GameObject: {fileID: 5186930877081757659}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.166755, y: -4.4662514, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 7.13, y: 7.13, z: 7.13}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -166,7 +166,7 @@ MonoBehaviour:
   pSpeed: 2
   unlockSpeed: 1.5
   player_CS: {fileID: 0}
-  distanceForDecision: 7
+  distanceForUnlock: 0
 --- !u!114 &4660560086870488522
 MonoBehaviour:
   m_ObjectHideFlags: 0
