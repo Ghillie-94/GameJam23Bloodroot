@@ -1,0 +1,35 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SkeletonDamage : MonoBehaviour
+{
+
+    //this will be the amount of damage this hazard does
+    // public variable = shown in unity editor and accessible to other scripts
+    public int hazardDamage;
+
+    // built in unity function for handling collisions
+    // this function will be called when another object bumps 
+    // into the one that this script is attatched to
+    void OnTriggerEnter2D(Collider2D objectWeCollidedWith)
+    {
+
+        // get the player health script attached to that object(if there is one)
+        PlayerHealth player = objectWeCollidedWith.GetComponent<PlayerHealth>();
+
+        // check if we actually found a player health script on the object we collided with
+        // This if statement is true if the player variable is NOT null (aka empty)
+        if (player != null)
+        {
+            // this means there WAS a playerhealth script attatched to the object we bumped into
+            // which means this object is indeed the player
+
+            //therfore perform on collision action (damage the player)
+            player.ChangeHealth(-hazardDamage);
+            
+            
+        }
+       
+    }
+}
