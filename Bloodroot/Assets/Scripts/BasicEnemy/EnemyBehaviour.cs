@@ -34,9 +34,9 @@ public class EnemyBehaviour : MonoBehaviour
         return transform.localScale.x > Mathf.Epsilon;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        spriteRenderer.flipX = false;   
+        transform.localScale = new Vector2(-2.5f, transform.localScale.y);
     }
 
 }
