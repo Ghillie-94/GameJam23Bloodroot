@@ -10439,7 +10439,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1385211563}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -118.1, y: -3.2, z: 0}
+  m_LocalPosition: {x: 178.7, y: 2, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10490,7 +10490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1385896011600837970, guid: 38acf9d055dd47741b366cfbbf5f6f9e, type: 3}
-  projectileVelocity: {x: 12, y: 0}
+  projectileVelocity: {x: 45, y: 0}
   movement: {fileID: 1385211566}
 --- !u!114 &1385211572
 MonoBehaviour:
@@ -10505,7 +10505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1149768181450978307, guid: cd0323791c9b3bd40844591edf4b01e6, type: 3}
-  projectileVelocity: {x: 24, y: 0}
+  projectileVelocity: {x: 30, y: 0}
   movement: {fileID: 1385211566}
   timeBtwnShots: 0
   startTimeBtwnShots: 0.1
@@ -12561,7 +12561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7867420760825574556, guid: a6b40ac6e66e3b54697bff08ce3d2538, type: 3}
       propertyPath: startTimeBtwnShots
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7867420760825574558, guid: a6b40ac6e66e3b54697bff08ce3d2538, type: 3}
       propertyPath: m_Sprite
@@ -12681,7 +12681,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7867420760825574562, guid: a6b40ac6e66e3b54697bff08ce3d2538, type: 3}
       propertyPath: m_TagString
-      value: Enemy
+      value: Boss
       objectReference: {fileID: 0}
     - target: {fileID: 7867420760825574563, guid: a6b40ac6e66e3b54697bff08ce3d2538, type: 3}
       propertyPath: endScene
