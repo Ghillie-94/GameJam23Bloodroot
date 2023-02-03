@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pSpeed: 2
-  unlockSpeed: 1.5
+  unlockSpeed: 0.8
   player_CS: {fileID: 0}
   distanceForUnlock: 0
 --- !u!114 &4660560086870488522
