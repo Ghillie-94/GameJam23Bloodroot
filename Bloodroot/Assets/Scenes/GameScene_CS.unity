@@ -7045,6 +7045,7 @@ GameObject:
   - component: {fileID: 825475026}
   - component: {fileID: 825475025}
   - component: {fileID: 825475029}
+  - component: {fileID: 825475030}
   m_Layer: 0
   m_Name: BasicEnemy
   m_TagString: Untagged
@@ -7142,7 +7143,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d87aa37616bccae458703032a3e0fc83, type: 3}
   m_Color: {r: 0.7735849, g: 0.56559277, b: 0.7092347, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 2}
@@ -7180,6 +7181,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
+--- !u!95 &825475030
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825475024}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8094267ed69223d458554b89e7efc8a7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &844208397
 GameObject:
   m_ObjectHideFlags: 0
@@ -9269,7 +9290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f58dba6cad7819046af6edb6c49acc75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementForce: 10
+  movementForce: 17
   jumpPower: 7
 --- !u!212 &1385211567
 SpriteRenderer:

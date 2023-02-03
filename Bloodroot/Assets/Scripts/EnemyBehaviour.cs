@@ -6,12 +6,14 @@ public class EnemyBehaviour : MonoBehaviour
 {
 
     [SerializeField] float moveSpeed = 1f;
+    SpriteRenderer spriteRenderer;
 
     Rigidbody2D MyRigidbody;
    
     void Start()
     {
         MyRigidbody = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     
@@ -32,9 +34,9 @@ public class EnemyBehaviour : MonoBehaviour
         return transform.localScale.x > Mathf.Epsilon;
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        transform.localScale = new Vector2(-(Mathf.Sign(MyRigidbody.velocity.x)), transform.localScale.y);
+        spriteRenderer.flipX = false;   
     }
 
 }
